@@ -4,9 +4,9 @@ The scripts here set up an environment with a k3d cluster and a Vault server
 running on the same Docker network, mimicking a world where there's a secret
 store outside Kubernetes that Kubernetes should use.
 
-Run `bash init-world.sh` to set up the environment. **This will destroy any
+Run `bash init-world.sh` to set up the environment. *This will destroy any
 existing k3d cluster named `argo-cluster` and any existing Docker container
-named `vault`. **
+named `vault`.*
 
 Once this is done, your k3d cluster will be running, but empty except for a
 Bitnami Sealed Secrets controller in the `sealed-secrets` namespace.
