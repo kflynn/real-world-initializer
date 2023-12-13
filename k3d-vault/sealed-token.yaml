@@ -1,0 +1,15 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: my-secret-token
+  namespace: cert-manager
+spec:
+  encryptedData:
+    token: AgCCPg/4abHV8elV3s3CEiclpOXOiLLQEQgmoerYhduSad/DxIoRlbwvJ2y7pveJ4/UvW6V3Z9QJIUnChu0WNu96bD69t+aZ0ywSzP/UmauZId7sCK07MCxBb0nk7aJA3w9h+WT+DA6W3O1idwR4miHcCAz+DhV81yiWuo12/ehmgFGjixTtaXU7kCrqkjvq9wbHQKVoW79fLKSMi/7T/uXkLsEe9N+4WnWCGrbKjhNvn90Zn76dTxvqOSurwS47ginQv9omHAW+fT/R4JBOXmdUog7q06rcKcEb/9xp7V81o6I2xO1ah1NUjCaAyUAE05HmEIitt0ZemZqpl7R05k5/TX3daFTdwZTUjyV2MGyu/4A0Siz+pwNQiOWfgDvlqvgLa7XvFq7qli6yGpH0bgN9tbidDPHQCOSoBawXnSNjXrXngZ4H5gXbiRHmfRpKJyNoq8i7BWfM53HWa0Zd6txhYnRCBOmv/EHCCXTO+LO+AX5UOXa8W7gtOOGUfPGCHZNGYVfE2NlMcHEsQDJQs7x9+4Iy//m0syx1mHtv9cUF4Jre59OaJuN+FLHIwPcBslY62tYN3TgV1J9rq1GIUkHiH5dEHtzDonyjVn5Uqw9OdFmEhadFnELGWvepbjAOx7EVRUJv/D55ECZ6qiI1HLnHq3RYrdMwvoh82uBbHaP7VZ8+SSoV2o4o6kl/2iXhxHkbVgEKH1HS4tt/ou2QpyYsI5ljGYK7yOEIJBTaSJm8TqOeOuxjb7yLfaZwdu28JAgO9Q5jh4sMDpp6VKhpo6DTQMa1LQ04hayHSk1dlOoxAM2ObvsKlsZwMjEqovTmzg==
+  template:
+    metadata:
+      creationTimestamp: null
+      name: my-secret-token
+      namespace: cert-manager
